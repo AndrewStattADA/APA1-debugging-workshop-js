@@ -1,5 +1,5 @@
 function increment(n) {
-  return ++n;
+  return ++n; //++ must be before n due to load order
 }
 
 module.exports = { increment };
